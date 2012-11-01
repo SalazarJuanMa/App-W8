@@ -1,0 +1,43 @@
+﻿<UserControl
+    x:Class="NotasRapidas.Views.NotesControl"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="650" Width="1356">
+	<UserControl.Resources>
+		<DataTemplate x:Key="DataTemplate">
+			<Grid Height="244" Width="241" Margin="25">
+				<Grid.Background>
+					<ImageBrush ImageSource="ms-appx:///imagen/stickynote.png" Stretch="UniformToFill"/>
+				</Grid.Background>
+                <TextBox  HorizontalAlignment="Left" Height="37" Margin="12,8,0,0" TextWrapping="Wrap" Text="{Binding Titulo}" VerticalAlignment="Top" Width="106" Foreground="#FF1B1D1A" TextChanged="TextBox_TextChanged_1" FontWeight="Bold" FontFamily="Arial Rounded MT Bold" BorderBrush="Transparent" Background="Transparent"  />
+                <TextBox  HorizontalAlignment="Left" Height="141" Margin="10,49,0,0" TextWrapping="Wrap" Text="{Binding Dato}" VerticalAlignment="Top" Width="215" Foreground="#FF0D0E0D" TextChanged="TextBox_TextChanged_2" Background="Transparent" BorderBrush="Transparent"  />
+                <TextBlock HorizontalAlignment="Left" Height="37" Margin="123,8,0,0" TextWrapping="Wrap" Text="{Binding Fecha}" VerticalAlignment="Top" Width="102" Foreground="#FF0D0E0D" FontFamily="Arial Rounded MT Bold" FontSize="14" TextAlignment="Right" LineHeight="6"/>
+			</Grid>
+		</DataTemplate>
+	</UserControl.Resources>
+    
+    <Grid>
+        <Border BorderBrush="Yellow" CornerRadius="0" BorderThickness="0,0,0,6" Background="Transparent" Margin="0,0,0,601">
+            <StackPanel Orientation="Horizontal" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" Margin="0,0,0,6" Width="315">
+                <Button x:Name="btnAdd" Content="Agregar" HorizontalAlignment="Stretch" VerticalAlignment="Bottom" Background="#FFFBC407" Command="{Binding Path=AgregarNotaCommand}" Height="37" Click="btnAdd_Click"/>
+                <Button x:Name="btnDelete" Content="Eliminar" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"  Background="#FFFBC407"  Command="{Binding Path=EliminarNotaCommand}"  Click="btnDelete_Click"/>
+            </StackPanel>
+        </Border>
+
+        <Grid Margin="0,54,0,0" Background="#f94a01">
+            <ListView x:Name="ListaNotes"  ItemTemplate="{StaticResource DataTemplate}" SelectedItem="{Binding Path=NotaSeleccionada, Mode=TwoWay}"
+                      ItemsSource="{Binding ListaNotas}" 
+                      HorizontalAlignment="Left" Width="1356"
+            IsItemClickEnabled="{Binding NotaSeleccionadaCommand}"  >
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapGrid MaximumRowsOrColumns="4"  Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+            </ListView>
+        </Grid>
+        
+    </Grid>
+</UserControl>

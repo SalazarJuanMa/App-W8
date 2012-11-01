@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>W8PRO</Machine>
+    <WindowsUser>W8</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>E59958E896B22BF0F098F30E00CE9608A8ADBE71421EA7E51EAE968C95E610C5</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>fc5a6b56-9aac-4188-a478-5ca6d0e57bfd_1.0.0.0_neutral__xp1th3bqfbsf0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>fc5a6b56-9aac-4188-a478-5ca6d0e57bfd_xp1th3bqfbsf0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>fc5a6b56-9aac-4188-a478-5ca6d0e57bfd</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=W8</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-31T17:11:25.468</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\bin\Debug\NotasRapidas.exe">
+      <PackagePath>NotasRapidas.exe</PackagePath>
+      <Modified>2012-10-31T17:13:45.694</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\bin\Debug\NotasRapidas.pdb">
+      <PackagePath>NotasRapidas.pdb</PackagePath>
+      <Modified>2012-10-31T17:13:45.620</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\packages\Callisto.1.2.5\lib\winrt45\Callisto.dll">
+      <PackagePath>Callisto.dll</PackagePath>
+      <Modified>2012-10-30T21:30:51.647</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\packages\MvvmLight.4.1.23.0\lib\winrt45\GalaSoft.MvvmLight.Extras.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.dll</PackagePath>
+      <Modified>2012-10-25T14:41:12.731</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\packages\MvvmLight.4.1.23.0\lib\winrt45\GalaSoft.MvvmLight.Win8.dll">
+      <PackagePath>GalaSoft.MvvmLight.Win8.dll</PackagePath>
+      <Modified>2012-10-25T14:41:12.754</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\packages\MvvmLight.4.1.23.0\lib\winrt45\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+      <Modified>2012-10-25T14:41:12.777</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\packages\MvvmLight.4.1.23.0\lib\winrt45\GalaSoft.MvvmLight.Extras.Win8.xml">
+      <PackagePath>GalaSoft.MvvmLight.Extras.Win8.xml</PackagePath>
+      <Modified>2012-10-25T14:41:12.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\packages\MvvmLight.4.1.23.0\lib\winrt45\GalaSoft.MvvmLight.Win8.xml">
+      <PackagePath>GalaSoft.MvvmLight.Win8.xml</PackagePath>
+      <Modified>2012-10-25T14:41:12.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\packages\MvvmLight.4.1.23.0\lib\winrt45\Microsoft.Practices.ServiceLocation.xml">
+      <PackagePath>Microsoft.Practices.ServiceLocation.xml</PackagePath>
+      <Modified>2012-10-25T14:41:12.783</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-31T00:31:39.680</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-31T00:31:39.683</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-31T17:13:02.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-31T00:31:39.669</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\Assets\WideLogo.png">
+      <PackagePath>Assets\WideLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-31T00:31:39.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\imagen\stickynote.png">
+      <PackagePath>imagen\stickynote.png</PackagePath>
+      <Modified>2012-10-27T14:55:20.818</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\MVVMLight.Nuget.Readme.txt">
+      <PackagePath>MVVMLight.Nuget.Readme.txt</PackagePath>
+      <Modified>2012-10-25T14:41:13.228</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\sqlite3.dll">
+      <PackagePath>sqlite3.dll</PackagePath>
+      <Modified>2012-10-25T16:37:05.443</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-10-27T14:46:15.494</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\bin\Debug\Acerca\AcercaNotasRapidas.xaml">
+      <PackagePath>Acerca\AcercaNotasRapidas.xaml</PackagePath>
+      <Modified>2012-10-30T21:55:47.659</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T23:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-10-31T17:05:22.556</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\bin\Debug\Views\NotesControl.xaml">
+      <PackagePath>Views\NotesControl.xaml</PackagePath>
+      <Modified>2012-10-31T17:05:22.607</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\packages\Callisto.1.2.5\lib\winrt45\Callisto\themes\Generic.xaml">
+      <PackagePath>Callisto\themes\Generic.xaml</PackagePath>
+      <Modified>2012-10-30T21:30:51.662</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\W8\documents\visual studio 2012\Projects\NotasRapidas\NotasRapidas\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-10-31T17:11:09.864</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
